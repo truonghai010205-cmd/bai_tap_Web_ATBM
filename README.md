@@ -201,6 +201,8 @@ Kết hợp ký (khoá bí mật của người gửi) **và** mã hoá (khoá c
 vừa bảo mật nội dung, vừa xác thực người gửi. Cả 3 mô hình đã được cài đặt và chạy thử
 thành công trong [`rsa.py`](rsa.py) (phần `if __name__ == "__main__"`).
 
+<img width="1920" height="1080" alt="Screenshot 2026-09-28 150906" src="https://github.com/user-attachments/assets/2bbd36c8-6d3f-41ce-b9a6-f92e98ed60f5" />
+
 ---
 
 ## 6. So sánh tốc độ RSA và AES
@@ -243,6 +245,8 @@ AES nhanh hơn RSA rất nhiều lần và có thể xử lý dữ liệu dung l
 chậm vừa bị giới hạn kích thước bản rõ theo độ dài khoá (RSA-1024 chỉ mã hoá tối đa ~117
 byte/lần) nên **không phù hợp để mã hoá trực tiếp dữ liệu lớn**. Đây chính là lý do tồn tại
 mô hình mã hoá lai (hybrid) ở phần tiếp theo.
+
+<img width="1920" height="1080" alt="Screenshot 2026-09-28 151109" src="https://github.com/user-attachments/assets/c93e505a-5756-4aca-b19d-54ff7c0f48c6" />
 
 ---
 
