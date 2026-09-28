@@ -1,48 +1,36 @@
-# Bài tập về nhà
+## Bài tập Lập trình WEB
+## Bài 1 
+1. Giả lập Linux OS
+Cách nhanh và nhẹ nhất trên Windows là sử dụng WSL (Windows Subsystem for Linux) với bản phân phối Ubuntu.
 
-Deadline: **23h59 ngày 28/9/2026** — làm trên máy cá nhân, đẩy code lên GitHub (repo public).
+<img width="1920" height="1080" alt="Screenshot 2026-09-28 152125" src="https://github.com/user-attachments/assets/82785d99-92ac-45d4-8c88-fc92427f5031" />
 
-## Cấu trúc thư mục
+2. Cài đặt Docker & Docker Compose
 
-```
-bai-tap-ve-nha/
-├── an-toan-bao-mat/          # Môn An toàn và bảo mật thông tin
-│   ├── README.md             # Lý thuyết DES/AES/RSA + mô hình + so sánh tốc độ
-│   ├── aes.py                # Cài đặt AES-128 từ đầu (đã test đúng chuẩn FIPS-197)
-│   ├── rsa.py                # Cài đặt RSA: sinh khoá, mã hoá/giải mã, ký số
-│   └── benchmark_rsa_aes.py  # So sánh tốc độ AES vs RSA (số liệu đo thực tế)
-│
-└── lap-trinh-web/            # Môn Lập trình web
-    ├── README.md              # Hướng dẫn cài đặt/chạy chi tiết từng bước
-    ├── bai-tap-1/              # WSL/VM + Docker Compose (nginx, nodered, mariadb,
-    │                            # phpmyadmin, cloudflared) + nginx 2 domain
-    └── bai-tap-2/              # API Node-RED + nginx proxy + HTML/JS gọi API
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fb010af-0e35-4c44-9347-3336a8e51a90" />
 
-Xem chi tiết lý thuyết, giải thích và hướng dẫn chạy trong README của từng thư mục con.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/af030a78-0bd2-44e3-b05d-a0f4e8f2e7a5" />
 
-## Kiểm tra nhanh phần đã chạy được ngay (không cần Docker/domain)
+3. Cài đặt các dịch vụ bằng Docker Compose
 
-```bash
-cd an-toan-bao-mat
-python3 aes.py                # kiểm tra AES đúng test vector FIPS-197
-python3 rsa.py                # demo 3 mô hình áp dụng RSA
-python3 benchmark_rsa_aes.py  # so sánh tốc độ AES vs RSA
-```
 
-Phần `lap-trinh-web/` cần Docker + domain thật nên phải chạy trên máy bạn theo hướng dẫn
-trong [`lap-trinh-web/README.md`](lap-trinh-web/README.md).
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f083c5b0-277b-43f9-aa4b-bb50afd3e268" />
 
-## Đẩy code lên GitHub
 
-```bash
-cd bai-tap-ve-nha
-git init
-git add .
-git commit -m "Bai tap ve nha: An toan bao mat + Lap trinh web"
-git branch -M main
-git remote add origin <URL_REPO_GITHUB_CUA_BAN>
-git push -u origin main
-```
+<img width="1917" height="410" alt="image" src="https://github.com/user-attachments/assets/864e1560-24ea-409b-a6db-20093080f855" />
+4. Cấu hình Nginx chạy 2 website với 2 domain
+Cấu hình Nginx phục vụ 2 domain riêng biệt qua Cloudflare Tunnel.
+<img width="1915" height="452" alt="image" src="https://github.com/user-attachments/assets/59c4d962-64db-462f-84b2-a8a2d1ff3d85" />
 
-(Repo GitHub nhớ để **Public** theo đúng yêu cầu đề bài.)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cde3dc03-9fae-4311-9eb4-ab459d13da2c" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/27618b0e-8d06-4096-83c1-00eb580b016b" />
+
+## Bài tập 2 - Tạo API bằng Node-RED
+
+Tạo API /api/tacke trên Node-RED (http in → function → http response).
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/21027b71-3297-4fa8-84f5-5e8220a9daa1" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d5ea06a-a0fd-477d-9641-1e7e273bbd8d" />
+
+
