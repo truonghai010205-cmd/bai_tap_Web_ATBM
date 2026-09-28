@@ -119,6 +119,8 @@ Chạy thử:
 python3 aes.py
 ```
 
+<img width="1920" height="1080" alt="Screenshot 2026-09-28 150653" src="https://github.com/user-attachments/assets/dc479d5d-f166-41eb-848f-c4b7dcaaa736" />
+
 ---
 
 ## 4. Thuật toán RSA
