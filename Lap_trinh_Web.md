@@ -29,7 +29,8 @@ Cấu hình Nginx phục vụ 2 domain riêng biệt qua Cloudflare Tunnel.
 ## Bài tập 2 - Tạo API bằng Node-RED
 
 Tạo API /api/tacke trên Node-RED (http in → function → http response).
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/21027b71-3297-4fa8-84f5-5e8220a9daa1" />
+
+<img width="1920" height="1038" alt="image" src="https://github.com/user-attachments/assets/f474a812-b69e-4a92-8d11-33b326e0b6c6" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d5ea06a-a0fd-477d-9641-1e7e273bbd8d" />
 
