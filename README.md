@@ -1,4 +1,4 @@
-# Báo cáo: An toàn và bảo mật thông tin
+# An toàn và bảo mật thông tin
 
 > Nội dung: tìm hiểu DES/AES, cài đặt AES, tìm hiểu RSA, các mô hình áp dụng RSA,
 > so sánh tốc độ RSA/AES, kết hợp RSA + AES.
