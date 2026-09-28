@@ -200,6 +200,8 @@ Kết hợp ký (khoá bí mật của người gửi) **và** mã hoá (khoá c
 vừa bảo mật nội dung, vừa xác thực người gửi. Cả 3 mô hình đã được cài đặt và chạy thử
 thành công trong [`rsa.py`](rsa.py) (phần `if __name__ == "__main__"`).
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28a227a2-fec9-4ccc-8a06-9fe21fbb1743" />
+
 ---
 
 ## 6. So sánh tốc độ RSA và AES
