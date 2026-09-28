@@ -245,6 +245,8 @@ chậm vừa bị giới hạn kích thước bản rõ theo độ dài khoá (R
 byte/lần) nên **không phù hợp để mã hoá trực tiếp dữ liệu lớn**. Đây chính là lý do tồn tại
 mô hình mã hoá lai (hybrid) ở phần tiếp theo.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6a92d92-6d17-4cd8-9220-a9218d2d1485" />
+
 ---
 
 ## 7. Kết hợp RSA và AES (mã hoá lai - hybrid encryption)
